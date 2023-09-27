@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>HTML Forms</h2>
+
+        <form action="/action_page.php">
+            <input type="radio" id="gender" name ="gender1" value="Male">
+            <label for="gender">Male</label><br>
+            <input type="radio" id="gender" name ="gender1" value="Female">
+            <label for="gender">Female</label><br>
+
+            <input type="checkbox" id="food" name="food1" value="noodle">
+            <label for="food1"> I want noodle</label><br>
+            <input type="checkbox" id="food" name="food2" value="Gimbob">
+            <label for="food2"> I want Gimbob</label><br>
+            <input type="checkbox" id="food" name="food3" value="Chicken">
+            <label for="food3"> I want Chicken</label><br>
+            <label for="drink">Choose a drink:</label>
+            <select id="drink" name="drink">
+                <option value="coke">coke</option>
+                <option value="water">water</option>
+                <option value="orange">orange</option>
+                <option value="fanta">fanta</option>
+            </select>
+            <br><br>
+
+
+
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname"   value="John"><br>
+            <label for="lname">Lirst name:</label><br>
+            <input type="text" id="lname"  value="Doe"><br>
+            <form action="/actoion_page.php">
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+            </form>
+
+            <h3>요청사항</h3>
+            <form action="/action_page.php">
+                <textarea name="message" rows="10" cols="30">요청사항을 입력하세요.</textarea>
+                <br><br>
+            </form>
+
+
+            <input type="submit" value="Submit">
+
+            
+        </form>
+    </body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="eg">
+    <head>
+        <style>
+            body {
+                margin: 0;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: black;
+                text-align: left;
+                background-color: white;
+                display: block;
+            }
+
+            div {
+                display: block;
+            }
+            .top {
+                margin-bottom: 1rem;
+                flex-direction: row;
+                align-items: center;
+                display: flex;
+                border-bottom: 1px solid gray;
+                margin-bottom: 1rem;
+                padding: 1rem;
+                padding-right: 1.5rem;
+                padding-left: 1.5rem;
+            }
+
+            h1 {
+                display: block;
+                font-weight: 400;
+                margin-right: auto;
+                margin-bottom: 0;
+                margin-top: 0;
+                font-size: 1.25rem;
+            }
+
+            .text2 {
+                margin-right: 1rem;
+                margin-bottom: 0;
+                margin-top: 0;
+                text-align: left;
+            }
+            .text3 {
+                color: black;
+                padding: 0.5rem;
+                text-decoration: none;
+            }
+            .text4 {
+                color: skyblue;
+                border-color: skyblue;
+                border: 1px solid skyblue;
+                border-radius: 0.25rem;
+                text-decoration: none;
+                padding: 0.375rem 0.75rem;
+            }
+
+            .back {
+                max-width: 700px;
+                text-align: center;
+                padding-top: 3rem;
+                padding-bottom: 1.5rem;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                display: block;
+            }
+            .text5 {
+                font-size: 3.5rem;
+                font-weight: 300;
+                line-height: 1.2;
+                margin-bottom: 0.5rem;
+                margin-top: 0;
+                text-align: center;
+            }
+            
+            .lead {
+                margin-top: 0;
+                margin-bottom: 1rem;
+                display: block;
+            }
+
+            .continer {
+                max-width: 960px;
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+                display: block;
+                box-sizing: border-box;
+            }
+
+            .box1 {
+                text-align: center;
+                margin-bottom: 1rem;
+                display: flex;
+                flex-flow: row wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+
+            .box2 {
+                min-width: 220px;
+                flex: 1 0 0%;
+                margin-right: 15px;
+                margin-left: 15px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                border: 1px solid black;
+            }
+            .header {
+                padding: 0.75rem 1.25rem;
+                margin-bottom: 0;
+                background-color: rgba(0, 0, 0, .125);
+                border-bottom: 1px solid black;
+                display: block;
+                text-align: center;
+            }
+            .body {
+                flex: 1 1 auto;
+                min-height: 1px;
+                padding: 1.25rem;
+                display: block;
+                text-align: center;
+            }
+
+            .text6 {
+                font-weight: 400;
+                margin-bottom: 0;
+                margin-top: 0;
+                font-size: 1.5rem;
+            }
+            .body {
+                flex: 1 1 auto;
+                min-height: 1px;
+                padding: 1.25rem;
+            }
+
+            .text7 {
+                margin-bottom: 0.75rem;
+                font-size: 2.5rem;
+                line-height: 1.2;
+                margin-top: 0;
+            }
+
+            .text-muted {
+                color: #6c757d;
+                font-size: .875rem  ;
+                font-weight: 400    ;
+            }
+
+            .ui {
+                margin-bottom: 1.5rem;
+                margin-top: 1rem;
+                padding-left: 0;
+                list-style: none;
+            }
+            .button {
+                text-transform: none;
+                overflow: visible;
+                margin: 0;
+
+            }
+            .block {
+                width: 100%;
+                padding: 0.5rem 1rem;
+                font-size: 1.25rem;
+                line-height: 1.5;
+                border-radius: 0.3rem;
+                color: skyblue;
+                border-color: skyblue;
+                background-color: transparent;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <div class="top">
+            <h1 class="text1">Company name</h1>
+            <nav class="text2">
+                <a class="text3" href="#">Features</a>
+                <a class="text3" href="#">Enterprise</a>
+                <a class="text3" href="#">Support</a>
+                <a class="text3" href="#">Pricing</a>
+            </nav>
+            <a class="text4" href="#">Sign up</a>
+        </div>
+
+        <div class="back">
+            <h2 class="text5">Pricing</h2>
+            <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
+        </div>
+
+        <div class="container">
+            <div class="box1">
+
+                <div class="box2">
+                    <div class="header">
+                        <h3 class="text6">Free</h3>
+                    </div>
+                    <div class="body">
+                        <h2 class="text7">$0 <samll class="text-muted">/ mo </small> </h2>
+                        <ui class="ui">
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                        </ui>
+                        <button type="button" class="block">Sign up for free</button>
+                    </div>
+                </div>
+
+
+                <div class="box2">
+                    <div class="header">
+                        <h3 class="text6">Pro</h3>
+                    </div>
+                    <div class="body">
+                        <h2 class="text7">$15 <samll class="text-muted">/ mo </small> </h2>
+                        <ui class="ui">
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                        </ui>
+                        <button type="button" class="block">Get started</button>
+                    </div>
+                </div>
+
+                
+                <div class="box2">
+                    <div class="header">
+                        <h3 class="text6">Enterprise</h3>
+                    </div>
+                    <div class="body">
+                        <h2 class="text7">$29 <samll class="text-muted">/ mo </small> </h2>
+                        <ui class="ui">
+                            <li>30 users included</li>
+                            <li>15 GB of storage</li>
+                            <li>Phone and email support</li>
+                            <li>Help center access</li>
+                        </ui>
+                        <button type="button" class="block">Contact us</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+</html>
